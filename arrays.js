@@ -2,10 +2,14 @@
 
 const fruits = ['apple', 'banana', 'orange', 'kiwi', 'grapes']
 
-// write loop here...
+for(let i = 0; i < fruits.length; i++) {
+  console.log(fruits[i])
+}
 
 
 // Given the following array, output each student's first name
+//note: objects, the order of the KVP does not matter example first name will be together with Ilan, last name always Vaks; order in array does matter 
+
 
 const students = [
   {
@@ -23,11 +27,8 @@ const students = [
     lastName: 'Stamper',
     gender: 'female',
   },
-  {
-    firstName: 'Meghann',
-    lastName: 'Stamper',
-    gender: 'female',
-  },
 ]
 
-// write loop here....
+for(let i = 0; i < students.length; i++) {
+  console.log(students[i].firstName)
+}
